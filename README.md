@@ -1,8 +1,8 @@
 # Версии ПО
-Java 7
-kafka 2.12-3.2.0
-MySql 8.0.28
-Django 4.0.4
+##### Java 7
+##### kafka 2.12-3.2.0
+##### MySql 8.0.28
+##### Django 4.0.4
 # Как запускать
 1. Запуск kafka
 * bin/zookeeper-server-start.sh config/zookeeper.properties
