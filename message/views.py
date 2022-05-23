@@ -2,14 +2,12 @@ from django.http import HttpResponse
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework_simplejwt.tokens import RefreshToken
 
 from message.models import Message
 from message.serializers import MessageSerializer
 # Kafka
 from kafka import KafkaProducer
 import pickle
-from django.contrib.auth.models import User
 
 # class CreateUser(APIView):
 #     def post(self,request, format = None):
